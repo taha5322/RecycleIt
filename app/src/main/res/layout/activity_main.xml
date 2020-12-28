@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/homescreen"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/recycleTrashButton"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="39dp"
+        android:background="@mipmap/milkjugs"
+        android:text="I would like to recycle trash"
+        app:layout_constraintBottom_toTopOf="@+id/donateButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/secondHand"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="65dp"
+        android:background="@mipmap/ecof"
+        android:text="I would like to buy second hand stuff, attend yard sales, visit second-hand stores"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/donateButton"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="39dp"
+        android:background="@mipmap/recovery"
+        android:text="I would like to donate to shelters/visit recyclling centres"
+        app:layout_constraintBottom_toTopOf="@+id/secondHand"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
