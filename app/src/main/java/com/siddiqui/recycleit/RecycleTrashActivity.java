@@ -61,7 +61,7 @@ public class RecycleTrashActivity extends AppCompatActivity {
     int AUTOCOMPLETE_REQUEST_CODE;
     private FusedLocationProviderClient fusedLocationClient;
     public static Place place;
-    public static String apiKey = "AIzaSyB6vFSREwAYbZgKlj9JgCb8OAQbr0zNxXs";
+    public static String apiKey;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

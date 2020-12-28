@@ -26,7 +26,7 @@ public class SecondHandSalesActivity extends AppCompatActivity {
         adapter = new SalesListingAdapter(this, getListings());
 
 
-        binding..setAdapter(adapter);
+        binding.setAdapter(adapter);
 //        binding.hourlyListItems.setHasFixedSize(true);
 //        binding.hourlyListItems.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
         binding.hourlyListItems.setLayoutManager(new LinearLayoutManager(this));
